@@ -1,8 +1,6 @@
 import { combineReducers } from 'redux'
-import counterReducer from 'store/counter/reducer'
-import MemeReducer from 'store/meme/reducer'
+import MemeReducer from './meme/reducer'
 const reducers = combineReducers({
-  counterReducer,
   MemeReducer
 })
 

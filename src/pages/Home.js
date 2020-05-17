@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from 'components/Home'
+import MemeList from '../components/MemeList/memeList'
 
 export default () => {
   return (
     <>
-      <Home />
+      <MemeList />
     </>
   )
 }
